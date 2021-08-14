@@ -5,8 +5,9 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: $font;
+  background-color: #EFEFEF;
   // background: #ffffff;
-  background-image: linear-gradient(to top, #ffffff, #fefefe, #fdfdfd, #fcfcfc, #fbfbfb);
+  // background-image: linear-gradient(to top, #ffffff, #fefefe, #fdfdfd, #fcfcfc, #fbfbfb);
 }
 .main-content{
   margin-top: 100px;

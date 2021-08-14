@@ -4,11 +4,12 @@
     left: 0;
     right: 0;
     top: 0;
-    background-image: linear-gradient(to top, #ffffff, #fefefe, #fdfdfd, #fcfcfc, #fbfbfb);
+    background-color: #EFEFEF;
+    // background-image: linear-gradient(to top, #ffffff, #fefefe, #fdfdfd, #fcfcfc, #fbfbfb);
     // background-image: linear-gradient(to bottom, #0d6bbc, #126dbc, #166fbd, #1a71bd, #1e73bd);
     // background-color: #ffffff;
     // background-color: #1e73bd;
-    box-shadow: inset 0px -10px 20px -10px rgba(156, 155, 155, 0.5);
+    box-shadow: inset 0px -10px 20px -10px rgba(200, 200, 200, 0.5);
     z-index: 999;
     transition: 0.7s ease;
         .container{
@@ -29,7 +30,8 @@
                     }
                     .nav-link{
                         font-size: 15px;
-                        color: #69707A;
+                        // color: #69707A;
+                        color: #000000;
                         user-select: none;
                         transition: 0.5s ease;
                         font-weight: 500;
@@ -51,7 +53,7 @@
 }
 
 .myactive{
-    opacity: 0.7;
+    opacity: 0.8;
 // position: relative;
 // color: #ffffff;
 // &::after{
